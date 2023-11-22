@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "car-guide-app",
+    "name": "Car Guide",
     "slug": "car-guide-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,12 +19,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logoMain.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.meriendaxd.carguideapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBuhXrmF6EWeBPkL87B8EWJvqjtm_AIIHQ"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2228f89e-1f1b-4540-83af-05a9acf011b9"
+      }
     }
   }
 }
